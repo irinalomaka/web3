@@ -1,7 +1,5 @@
-// NOTE: Need to compile with browserify viz.js -o main.js
 
-//var account = '0x4cf24bf15bfead008b22ea33b7c99a82326031a7'; // Pi
-var account = '0xa0d2e0ccfc48423e269fa62adcba67aba29efac2'; // Dev
+var account = '0xa0d2e0ccfc48423e269fa62adcba67aba29efac2'; 
 var contractAddress = '0x8117241ae80Ae91D8Ba4c943eCe083CBa9f291f0';
 
 
