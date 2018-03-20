@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sample App</title>
+<link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://v4-alpha.getbootstrap.com/examples/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
+    <!-- including web3.js from node_modules -->
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+  </head>
+<body>
+    <div class="container">
+      <div class="header clearfix">
+        <h3 class="text-muted">Add Books</h3>
+      </div>
+<!-- to display the count of total books -->
+      <div id="info" class="alert alert-info"></div>
+<!-- form to get title, author and language of the book -->
+      <form>
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" class="form-control" id="title">
+        </div>
+        <div class="form-group">
+          <label for="author">Author</label>
+          <input type="text" class="form-control" id="author">
+        </div>
+        <div class="form-group">
+          <label for="language">Language</label>
+          <input type="text" class="form-control" id="language">
+        </div>
+<button type="submit" class="btn btn-primary" id="button">Update</button>
+      </form>
+    </div>
+
+     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/web3/dist/web3.min.js"></script>
+
+    <script src="abi.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
